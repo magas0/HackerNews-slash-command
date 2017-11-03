@@ -1,0 +1,46 @@
+<div style="
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border: 2px solid rgba(255, 100, 0, 0.3);
+  border-radius: 2px;
+  padding: 0.40rem;
+">
+  <a href="https://news.ycombinator.com/" target="_blank">
+    <img style="
+      height: 35px;
+      border-radius: 2px;
+    " src="http://www.ycombinator.com/images/ycombinator-logo-fb889e2e.png">
+  </a>
+  <div style="
+    font-family: Proxima Nova, Helvetica Neue, sans-serif;
+    margin-left: 1rem;
+  ">
+    <div style="
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 445px;
+    ">
+      <a href="https://news.ycombinator.com/item?id=<% return data.id %>" target="_blank" style="
+        text-decoration: none;
+        color: rgb(33, 33, 33);
+      ">
+        <% return data.title %>
+      </a>
+    </div>
+    <div>
+      <div style="
+        font-size: 0.8rem;
+        color: rgb(88, 88, 88);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 445px;
+      ">
+        by <% return data.author %> | comments(<% return data.num_comments %>)
+      </div>
+    </div>
+  </div>
+</div>

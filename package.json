@@ -1,0 +1,30 @@
+{
+  "name": "HackerNews-slash-command",
+  "version": "0.0.1",
+  "description": "Hacker News slash command for Mixmax",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/magas0/HackerNews-slash-command.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magas0/HackerNews-slash-command.git/issues"
+  },
+  "homepage": "https://github.com/magas0/HackerNews-slash-command.git",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "pem": "^1.8.3",
+    "request": "^2.64.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}
